@@ -53,15 +53,14 @@ https://templatemo.com/tm-568-digimedia
         <div class="col-lg-8 col-sm-8 col-7">
           <ul class="info">
             <li><a href="#"><i class="fa fa-envelope"></i>digimedia@company.com</a></li>
-            <li><a href="#"><i class="fa fa-phone"></i>010-020-0340</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-sm-4 col-5">
           <ul class="social-media">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li><!--remove--><!--linked in-->
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li><!--whatsapp-->
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li><!--remove--><!--telegram-->
           </ul>
         </div>
       </div>
@@ -86,9 +85,9 @@ https://templatemo.com/tm-568-digimedia
               <li class="scroll-to-section"><a href="#about">About</a></li>
               <li class="scroll-to-section"><a href="#services">Services</a></li>
               <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
-              <li class="scroll-to-section"><a href="#blog">Blog</a></li>
+              <li class="scroll-to-section"><a href="#blog">Blog</a></li><!--setup separate page-->
               <li class="scroll-to-section"><a href="#contact">Contact</a></li> 
-              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Free Quote</a></div></li> 
+              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Free Quote</a></div></li> <!--go to quote-->
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
@@ -116,7 +115,7 @@ https://templatemo.com/tm-568-digimedia
                   </div>
                   <div class="col-lg-12">
                     <div class="border-first-button scroll-to-section">
-                      <a href="#contact">Free Quote</a>
+                      <a href="#contact">Free Quote</a><!--go to quote-->
                     </div>
                   </div>
                 </div>
@@ -163,7 +162,7 @@ https://templatemo.com/tm-568-digimedia
                         </span>
                         <div class="progress-value">
                           <div>
-                            90%<br>
+                            100%<br>
                             <span>Coding</span>
                           </div>
                         </div>
