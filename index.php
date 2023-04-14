@@ -16,7 +16,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <title><?php echo $SITENAME; ?></title>
+  <title><?php echo $SITENAME; ?>.com</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/et.png">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,13 +28,7 @@
   <link rel="stylesheet" href="assets/css/templatemo-digimedia-v3.css">
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
-<!--
 
-TemplateMo 568 DigiMedia
-
-https://templatemo.com/tm-568-digimedia
-
--->
 </head>
 
 <body>
@@ -63,9 +58,9 @@ https://templatemo.com/tm-568-digimedia
         <div class="col-lg-4 col-sm-4 col-5">
           <ul class="social-media">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-behance"></i></a></li><!--remove--><!--linked in-->
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li><!--whatsapp-->
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li><!--remove--><!--telegram-->
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fa fa-telegram"></i></a></li>
           </ul>
         </div>
       </div>
@@ -81,7 +76,7 @@ https://templatemo.com/tm-568-digimedia
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/logo-v3.png" alt="">
+              <img src="assets/images/logo.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -115,7 +110,7 @@ https://templatemo.com/tm-568-digimedia
                 <div class="row">
                   <div class="col-lg-12">
                     <h6>Ecommerce Tracking Agency</h6>
-                    <h3>Unlock the Power of Your Online Store with Data-Driven Insights</h3>
+                    <h2>Unlock the Power of Your Online Store with Data-Driven Insights</h2>
                     <p>Maximize Your Online Sales with Our Ecommerce Tracking Services. We Use Google Analytics 4 (GA4), Google Search Console (GSC), and Google Tag Manager (GTM) to Deliver Data-Driven Insights</p>
                   </div>
                   <div class="col-lg-12">
@@ -128,7 +123,7 @@ https://templatemo.com/tm-568-digimedia
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/land_page.png" alt="">
+                <img src="assets/images/landing_page.png" alt="">
               </div>
             </div>
           </div>
@@ -238,31 +233,31 @@ https://templatemo.com/tm-568-digimedia
                     <div class="first-thumb active">
                       <div class="thumb">
                         <span class="icon"><img src="assets/images/service-icon-01.png" alt=""></span>
-                        GA4
+                        Google <br>Analytics 4
                       </div>
                     </div>
                     <div>
                       <div class="thumb">                 
                         <span class="icon"><img src="assets/images/service-icon-02.png" alt=""></span>
-                        GTM
+                        Google <br>Tag Manager
                       </div>
                     </div>
                     <div>
                       <div class="thumb">                 
                         <span class="icon"><img src="assets/images/service-icon-03.png" alt=""></span>
-                        GSC
+                        Google <br>Search Console
                       </div>
                     </div>
                     <div>
                       <div class="thumb">                 
                         <span class="icon"><img src="assets/images/service-icon-04.png" alt=""></span>
-                        Looker Studio
+                        Google <br>Looker Studio
                       </div>
                     </div>
                     <div class="last-thumb">
                       <div class="thumb">                 
                         <span class="icon"><img src="assets/images/service-icon-01.png" alt=""></span>
-                        Optimization
+                        Search Engine <br>Optimization
                       </div>
                     </div>
                   </div>
@@ -390,7 +385,7 @@ https://templatemo.com/tm-568-digimedia
                       <div class="row">
                         <div class="col-lg-4 col-sm-4">
                           <fieldset>
-                            <input type="web" name="web" class="website" placeholder="Your website URL..." autocomplete="on" required>
+                            <input type="name" name="name" class="name" placeholder="Your Name..." autocomplete="on" required>
                           </fieldset>
                         </div>
                         <div class="col-lg-4 col-sm-4">
@@ -592,9 +587,9 @@ https://templatemo.com/tm-568-digimedia
                           </div>
                         </div>
                         <div class="col-lg-5">
-                          <div id="map">
+                          <!-- <div id="map">
                             <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="636px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                          </div>
+                          </div> -->
                         </div>
                         <div class="col-lg-7">
                           <div class="fill-form">
@@ -603,19 +598,19 @@ https://templatemo.com/tm-568-digimedia
                                 <div class="info-post">
                                   <div class="icon">
                                     <img src="assets/images/phone-icon.png" alt="">
-                                    <a href="#">010-020-0340</a>
+                                    <a href="#"><?php echo $PHONE_NO; ?></a>
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-lg-4">
+                              <div class="col-lg-6">
                                 <div class="info-post">
                                   <div class="icon">
                                     <img src="assets/images/email-icon.png" alt="">
-                                    <a href="#">our@email.com</a>
+                                    <a href="#"><?php echo $EMAIL; ?></a>
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-lg-4">
+                              <div class="col-lg-2">
                                 <div class="info-post">
                                   <div class="icon">
                                     <img src="assets/images/location-icon.png" alt="">

@@ -1,6 +1,7 @@
 <?php 
 
-$SITENAME = 'Datarbol Reports';
-$EMAIL = 'mymail@datarbol.com';
+$SITENAME = 'Ecomtrace';
+$EMAIL = 'mymail@ecomtrace.com';
+$PHONE_NO = '+94 777 338 795'
 
  ?>
