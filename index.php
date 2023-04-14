@@ -60,7 +60,7 @@
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-            <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+            <!-- <li><a href="#"><i class="fa fa-telegram"></i></a></li> -->
           </ul>
         </div>
       </div>
@@ -87,7 +87,7 @@
               <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
               <li class="scroll-to-section"><a href="#blog">Blog</a></li><!--setup separate page-->
               <li class="scroll-to-section"><a href="#contact">Contact</a></li> 
-              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Free Quote</a></div></li> <!--go to quote-->
+              <li class="scroll-to-section"><div class="border-first-button"><a href="#free-quote">Free Quote</a></div></li> <!--go to quote-->
             </ul>        
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -232,32 +232,32 @@
                   <div class="menu">
                     <div class="first-thumb active">
                       <div class="thumb">
-                        <span class="icon"><img src="assets/images/service-icon-01.png" alt=""></span>
+                        <span class="icon"><img src="assets/images/icons/GA4.png" alt=""></span>
                         Google <br>Analytics 4
                       </div>
                     </div>
                     <div>
                       <div class="thumb">                 
-                        <span class="icon"><img src="assets/images/service-icon-02.png" alt=""></span>
+                        <span class="icon"><img src="assets/images/icons/GTM.png" alt=""></span>
                         Google <br>Tag Manager
                       </div>
                     </div>
                     <div>
                       <div class="thumb">                 
-                        <span class="icon"><img src="assets/images/service-icon-03.png" alt=""></span>
+                        <span class="icon"><img src="assets/images/icons/GSC.png" alt=""></span>
                         Google <br>Search Console
                       </div>
                     </div>
                     <div>
                       <div class="thumb">                 
-                        <span class="icon"><img src="assets/images/service-icon-04.png" alt=""></span>
+                        <span class="icon"><img src="assets/images/icons/GLS.png" alt=""></span>
                         Google <br>Looker Studio
                       </div>
                     </div>
                     <div class="last-thumb">
                       <div class="thumb">                 
-                        <span class="icon"><img src="assets/images/service-icon-01.png" alt=""></span>
-                        Search Engine <br>Optimization
+                        <span class="icon"><img src="assets/images/icons/Optimization.png" alt=""></span>
+                        <br>Optimization
                       </div>
                     </div>
                   </div>
@@ -586,38 +586,65 @@
                             <img src="assets/images/contact-dec-v3.png" alt="">
                           </div>
                         </div>
-                        <div class="col-lg-5">
-                          <!-- <div id="map">
+                     <!--   <div class="col-lg-5">
+                           <div id="map">
                             <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="636px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                          </div> -->
-                        </div>
-                        <div class="col-lg-7">
+                          </div> 
+                        </div>-->
+
+                        <div class="col-lg-12">
                           <div class="fill-form">
                             <div class="row">
-                              <div class="col-lg-4">
+                              <div class="col-lg-2">
                                 <div class="info-post">
                                   <div class="icon">
-                                    <img src="assets/images/phone-icon.png" alt="">
+                                    <img src="assets/images/icons/call.png" alt="">
                                     <a href="#"><?php echo $PHONE_NO; ?></a>
                                   </div>
                                 </div>
-                              </div>
-                              <div class="col-lg-6">
+                              </div>                              
+                              <div class="col-lg-2">
                                 <div class="info-post">
                                   <div class="icon">
-                                    <img src="assets/images/email-icon.png" alt="">
-                                    <a href="#"><?php echo $EMAIL; ?></a>
+                                    <img src="assets/images/icons/facebook.png" alt="">
+                                    <a href="#"><?php echo $FACEBOOK_NAME; ?></a>
                                   </div>
                                 </div>
                               </div>
                               <div class="col-lg-2">
                                 <div class="info-post">
                                   <div class="icon">
-                                    <img src="assets/images/location-icon.png" alt="">
-                                    <a href="#">123 Rio de Janeiro</a>
+                                    <img src="assets/images/icons/linkedin.png" alt="">
+                                    <a href="#"><?php echo $LINKEDIN_NAME; ?></a>
                                   </div>
                                 </div>
                               </div>
+                              <div class="col-lg-2">
+                                <div class="info-post">
+                                  <div class="icon">
+                                    <img src="assets/images/icons/whatsapp.png" alt="">
+                                    <a href="#"><?php echo $TWITTER_NAME; ?></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="info-post">
+                                  <div class="icon">
+                                    <img src="assets/images/icons/twitter.png" alt="">
+                                    <a href="#"><?php echo $TELEGRAM_NO; ?></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2">
+                                <div class="info-post">
+                                  <div class="icon">
+                                    <img src="assets/images/icons/telegram.png" alt="">
+                                    <a href="#"><?php echo $PHONE_NO; ?></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--  -->
+                              <hr>
                               <div class="col-lg-6">
                                 <fieldset>
                                   <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
@@ -625,9 +652,9 @@
                                 <fieldset>
                                   <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
                                 </fieldset>
-                                <!-- <fieldset>
+                                <fieldset>
                                   <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
-                                </fieldset> -->
+                                </fieldset>
                               </div>
                               <div class="col-lg-6">
                                 <fieldset>
@@ -642,6 +669,7 @@
                             </div>
                           </div>
                         </div>
+
                       </div>
                     </form>
                   </div>
