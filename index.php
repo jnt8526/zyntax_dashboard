@@ -75,7 +75,7 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <img src="assets/images/logo.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
@@ -85,7 +85,7 @@
               <li class="scroll-to-section"><a href="#about">About</a></li>
               <li class="scroll-to-section"><a href="#services">Services</a></li>
               <li class="scroll-to-section"><a href="#portfolio">Projects</a></li>
-              <li class="scroll-to-section"><a href="#blog">Blog</a></li><!--setup separate page-->
+              <li class="scroll-to-section"><a href="blog.php">Blog</a></li><!--setup separate page-->
               <li class="scroll-to-section"><a href="#contact">Contact</a></li> 
               <li class="scroll-to-section"><div class="border-first-button"><a href="#free-quote">Free Quote</a></div></li> <!--go to quote-->
             </ul>        
@@ -272,320 +272,333 @@
                               <div class="left-text">
                                 <h4>Set up ecommerce tracking using GA4</h4>
                                 <p>Setting up ecommerce tracking using GA4 is essential for any online business. With GA4, businesses can gain valuable insights into their customers' behavior and optimize their online store accordingly. By implementing ecommerce tracking, businesses can track sales, revenue, and other ecommerce metrics to inform their marketing and business strategies.</p>
-                                </div>
                               </div>
-                              <div class="col-lg-6 align-self-center">
-                                <div class="right-image">
-                                  <img src="assets/images/services-image.jpg" alt="">
-                                </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/services-image.jpg" alt="">
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div>
-                          <div class="thumb">
-                            <div class="row">
-                              <div class="col-lg-6 align-self-center">
-                                <div class="left-text">
-                                  <h4>Implement GTM</h4>
-                                  <p>Implementing Google Tag Manager (GTM) allows businesses to manage their website tracking tags more efficiently. GTM enables businesses to track user behavior and engagement on their website, which can provide valuable insights for optimizing marketing and business strategies. With GTM, businesses can easily implement and manage various tracking tags and pixels without the need for coding knowledge.</p>
-                                  </div>
-                                </div>
-                                <div class="col-lg-6 align-self-center">
-                                  <div class="right-image">
-                                    <img src="assets/images/services-image-02.jpg" alt="">
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div>
-                            <div class="thumb">
-                              <div class="row">
-                                <div class="col-lg-6 align-self-center">
-                                  <div class="left-text">
-                                    <h4>Use GSC to monitor website performance</h4>
-                                    <p>Google Search Console (GSC) provides businesses with valuable insights into how their website is performing in search engines. By monitoring website performance through GSC, businesses can track their search engine rankings, impressions, and click-through rates. This information can inform optimization strategies to improve website visibility and attract more traffic.</p>
-                                    </div>
-                                  </div>
-                                  <div class="col-lg-6 align-self-center">
-                                    <div class="right-image">
-                                      <img src="assets/images/services-image-03.jpg" alt="">
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div>
-                              <div class="thumb">
-                                <div class="row">
-                                  <div class="col-lg-6 align-self-center">
-                                    <div class="left-text">
-                                      <h4>Visualize ecommerce data using Looker Studio</h4>
-                                      <p>Google Looker Studio enables businesses to create interactive visualizations of ecommerce data, providing valuable insights into customer behavior and sales trends. With Looker Studio, businesses can easily track and analyze ecommerce metrics, such as revenue, order volume, and customer demographics, to optimize their ecommerce strategy and increase profitability.</p>
-                                      </div>
-                                    </div>
-                                    <div class="col-lg-6 align-self-center">
-                                      <div class="right-image">
-                                        <img src="assets/images/services-image-04.jpg" alt="">
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div>
-                                <div class="thumb">
-                                  <div class="row">
-                                    <div class="col-lg-6 align-self-center">
-                                      <div class="left-text">
-                                        <h4>Implement optimizations and track results</h4>
-                                        <p>Implementing optimizations on a website and tracking their results is crucial for the success of any online business. By analyzing website data and user behavior, businesses can identify areas for improvement and implement changes to increase engagement, conversions, and revenue. Tracking these optimizations and analyzing the results allows businesses to continually optimize their website and achieve their business goals.</p>
-                                        </div>
-                                      </div>
-                                      <div class="col-lg-6 align-self-center">
-                                        <div class="right-image">
-                                          <img src="assets/images/services-image.jpg" alt="">
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>          
                         </div>
                       </div>
-                    </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Implement GTM</h4>
+                                <p>Implementing Google Tag Manager (GTM) allows businesses to manage their website tracking tags more efficiently. GTM enables businesses to track user behavior and engagement on their website, which can provide valuable insights for optimizing marketing and business strategies. With GTM, businesses can easily implement and manage various tracking tags and pixels without the need for coding knowledge.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/services-image-02.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Use GSC to monitor website performance</h4>
+                                <p>Google Search Console (GSC) provides businesses with valuable insights into how their website is performing in search engines. By monitoring website performance through GSC, businesses can track their search engine rankings, impressions, and click-through rates. This information can inform optimization strategies to improve website visibility and attract more traffic.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/services-image-03.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Visualize ecommerce data using Looker Studio</h4>
+                                <p>Google Looker Studio enables businesses to create interactive visualizations of ecommerce data, providing valuable insights into customer behavior and sales trends. With Looker Studio, businesses can easily track and analyze ecommerce metrics, such as revenue, order volume, and customer demographics, to optimize their ecommerce strategy and increase profitability.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/services-image-04.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Implement optimizations and track results</h4>
+                                <p>Implementing optimizations on a website and tracking their results is crucial for the success of any online business. By analyzing website data and user behavior, businesses can identify areas for improvement and implement changes to increase engagement, conversions, and revenue. Tracking these optimizations and analyzing the results allows businesses to continually optimize their website and achieve their business goals.</p>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/services-image.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="free-quote" class="free-quote">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Get Your Free Quote</h6>
+            <h4>Grow With Us Now</h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="name" name="name" class="name" placeholder="Your Name..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <button type="submit" class="main-button">Get Quote Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Our Portofolio</h6>
+            <h4>See Our Recent <em>Projects</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="loop owl-carousel">
+            <div class="item">
+              <a href="#">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/projects/1.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Analytics Reports</h4>
+                    <span>Marketing</span>
+                  </div>
+                </div>
+              </a>  
+            </div>
+            <div class="item">
+              <a href="#">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/projects/2.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Analytics Reports</h4>
+                    <span>Marketing</span>
+                  </div>
+                </div>
+              </a>  
+            </div>
+            <div class="item">
+              <a href="#">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/projects/3.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Analytics Reports</h4>
+                    <span>Marketing</span>
+                  </div>
+                </div>
+              </a>  
+            </div>
+            <div class="item">
+              <a href="#">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/projects/4.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Analytics Reports</h4>
+                    <span>Marketing</span>
+                  </div>
+                </div>
+              </a>  
+            </div>
+            <div class="item">
+              <a href="#">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/projects/5.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Analytics Reports</h4>
+                    <span>Marketing</span>
+                  </div>
+                </div>
+              </a>  
+            </div>
+            <div class="item">
+              <a href="#">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/projects/6.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>Analytics Reports</h4>
+                    <span>Marketing</span>
+                  </div>
+                </div>
+              </a>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="blog" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="section-heading">
+            <h6>Recent News</h6>
+            <h4>Check Our Blog <em>Posts</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/blog-post-01.jpg" alt=""></a>
+            </div>
+            <div class="down-content">
+              <span class="category">SEO Analysis</span>
+              <span class="date">03 August 2021</span>
+              <a href="#"><h4>Lorem Ipsum Dolor Sit Amet, Consectetur Adelore
+              Eiusmod Tempor Incididunt</h4></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers itii eiumod deis tempor incididunt ut labore.</p>
+              <span class="author"><img src="assets/images/author-post.jpg" alt="">By: Andrea Mentuzi</span>
+              <div class="border-first-button"><a href="#">Discover More</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-posts">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-02.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">SEO Analysis</span>
+                    <span class="date">24 September 2021</span>
+                    <a href="#"><h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4></a>
+                    <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-03.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">SEO Analysis</span>
+                    <span class="date">24 September 2021</span>
+                    <a href="#"><h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4></a>
+                    <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="post-item last-post-item">
+                  <div class="thumb">
+                    <a href="#"><img src="assets/images/blog-post-04.jpg" alt=""></a>
+                  </div>
+                  <div class="right-content">
+                    <span class="category">SEO Analysis</span>
+                    <span class="date">24 September 2021</span>
+                    <a href="#"><h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4></a>
+                    <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  --> 
 
-
-            <div id="free-quote" class="free-quote">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-4 offset-lg-4">
-                    <div class="section-heading  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                      <h6>Get Your Free Quote</h6>
-                      <h4>Grow With Us Now</h4>
-                      <div class="line-dec"></div>
-                    </div>
-                  </div>
-                  <div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                    <form id="search" action="#" method="GET">
-                      <div class="row">
-                        <div class="col-lg-4 col-sm-4">
-                          <fieldset>
-                            <input type="name" name="name" class="name" placeholder="Your Name..." autocomplete="on" required>
-                          </fieldset>
-                        </div>
-                        <div class="col-lg-4 col-sm-4">
-                          <fieldset>
-                            <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
-                          </fieldset>
-                        </div>
-                        <div class="col-lg-4 col-sm-4">
-                          <fieldset>
-                            <button type="submit" class="main-button">Get Quote Now</button>
-                          </fieldset>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h6>Contact Us</h6>
+            <h4>Get In Touch With Us <em>Now</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="contact-dec">
+                  <img src="assets/images/contact-dec-v3.png" alt="">
                 </div>
               </div>
-            </div>
-
-
-            <div id="portfolio" class="our-portfolio section">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-5">
-                    <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                      <h6>Our Portofolio</h6>
-                      <h4>See Our Recent <em>Projects</em></h4>
-                      <div class="line-dec"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="loop owl-carousel">
-                      <div class="item">
-                        <a href="#">
-                          <div class="portfolio-item">
-                            <div class="thumb">
-                              <img src="assets/images/portfolio-01.jpg" alt="">
-                            </div>
-                            <div class="down-content">
-                              <h4>Website Builder</h4>
-                              <span>Marketing</span>
-                            </div>
-                          </div>
-                        </a>  
-                      </div>
-                      <div class="item">
-                        <a href="#">
-                          <div class="portfolio-item">
-                            <div class="thumb">
-                              <img src="assets/images/portfolio-01.jpg" alt="">
-                            </div>
-                            <div class="down-content">
-                              <h4>Website Builder</h4>
-                              <span>Marketing</span>
-                            </div>
-                          </div>
-                        </a>  
-                      </div>
-                      <div class="item">
-                        <a href="#">
-                          <div class="portfolio-item">
-                            <div class="thumb">
-                              <img src="assets/images/portfolio-02.jpg" alt="">
-                            </div>
-                            <div class="down-content">
-                              <h4>Website Builder</h4>
-                              <span>Marketing</span>
-                            </div>
-                          </div>
-                        </a>  
-                      </div>
-                      <div class="item">
-                        <a href="#">
-                          <div class="portfolio-item">
-                            <div class="thumb">
-                              <img src="assets/images/portfolio-03.jpg" alt="">
-                            </div>
-                            <div class="down-content">
-                              <h4>Website Builder</h4>
-                              <span>Marketing</span>
-                            </div>
-                          </div>
-                        </a>  
-                      </div>
-                      <div class="item">
-                        <a href="#">
-                          <div class="portfolio-item">
-                            <div class="thumb">
-                              <img src="assets/images/portfolio-04.jpg" alt="">
-                            </div>
-                            <div class="down-content">
-                              <h4>Website Builder</h4>
-                              <span>Marketing</span>
-                            </div>
-                          </div>
-                        </a>  
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="blog" class="blog">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-4 offset-lg-4  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <div class="section-heading">
-                      <h6>Recent News</h6>
-                      <h4>Check Our Blog <em>Posts</em></h4>
-                      <div class="line-dec"></div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <div class="blog-post">
-                      <div class="thumb">
-                        <a href="#"><img src="assets/images/blog-post-01.jpg" alt=""></a>
-                      </div>
-                      <div class="down-content">
-                        <span class="category">SEO Analysis</span>
-                        <span class="date">03 August 2021</span>
-                        <a href="#"><h4>Lorem Ipsum Dolor Sit Amet, Consectetur Adelore
-                        Eiusmod Tempor Incididunt</h4></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers itii eiumod deis tempor incididunt ut labore.</p>
-                        <span class="author"><img src="assets/images/author-post.jpg" alt="">By: Andrea Mentuzi</span>
-                        <div class="border-first-button"><a href="#">Discover More</a></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <div class="blog-posts">
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="post-item">
-                            <div class="thumb">
-                              <a href="#"><img src="assets/images/blog-post-02.jpg" alt=""></a>
-                            </div>
-                            <div class="right-content">
-                              <span class="category">SEO Analysis</span>
-                              <span class="date">24 September 2021</span>
-                              <a href="#"><h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4></a>
-                              <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-12">
-                          <div class="post-item">
-                            <div class="thumb">
-                              <a href="#"><img src="assets/images/blog-post-03.jpg" alt=""></a>
-                            </div>
-                            <div class="right-content">
-                              <span class="category">SEO Analysis</span>
-                              <span class="date">24 September 2021</span>
-                              <a href="#"><h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4></a>
-                              <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-12">
-                          <div class="post-item last-post-item">
-                            <div class="thumb">
-                              <a href="#"><img src="assets/images/blog-post-04.jpg" alt=""></a>
-                            </div>
-                            <div class="right-content">
-                              <span class="category">SEO Analysis</span>
-                              <span class="date">24 September 2021</span>
-                              <a href="#"><h4>Lorem Ipsum Dolor Sit Amei Eiusmod Tempor</h4></a>
-                              <p>Lorem ipsum dolor sit amet, cocteturi adipiscing eliterski.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>  
-
-            <div id="contact" class="contact-us section">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                      <h6>Contact Us</h6>
-                      <h4>Get In Touch With Us <em>Now</em></h4>
-                      <div class="line-dec"></div>
-                    </div>
-                  </div>
-                  <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-                    <form id="contact" action="" method="post">
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="contact-dec">
-                            <img src="assets/images/contact-dec-v3.png" alt="">
-                          </div>
-                        </div>
                      <!--   <div class="col-lg-5">
                            <div id="map">
                             <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="636px" frameborder="0" style="border:0" allowfullscreen></iframe>
