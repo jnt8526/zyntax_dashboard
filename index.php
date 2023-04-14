@@ -625,9 +625,9 @@
                                 <fieldset>
                                   <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
                                 </fieldset>
-                                <fieldset>
+                                <!-- <fieldset>
                                   <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
-                                </fieldset>
+                                </fieldset> -->
                               </div>
                               <div class="col-lg-6">
                                 <fieldset>
@@ -653,8 +653,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12">
-                    <p>Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved. 
-                      <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+                    <p>Copyright &copy; <?php echo date("Y");?>. All Rights Reserved. 
+                      <br>Etrace.com <a href="#" target="_parent" title="free css templates"></a></p>
                     </div>
                   </div>
                 </div>
