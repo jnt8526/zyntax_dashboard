@@ -14,7 +14,7 @@ include 'sys_defaults.php';
 		window.dataLayer = window.dataLayer || []; 
 		function gtag(){dataLayer.push(arguments);} 
 		gtag('js', new Date()); 
-		
+
 		gtag('config', 'G-KH8L739Y2L'); 
 	</script>
 
@@ -52,7 +52,7 @@ include 'sys_defaults.php';
 					<nav class="main-nav">
 						<!-- ***** Logo Start ***** -->
 						<a href="index.php" class="logo">
-							<img src="assets/images/logo.png" alt="">
+							<img src="assets/images/logo.png" alt="" width="150" height="50">
 						</a>
 						<!-- ***** Logo End ***** -->
 					</nav>

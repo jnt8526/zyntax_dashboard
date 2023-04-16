@@ -13,7 +13,7 @@
     window.dataLayer = window.dataLayer || []; 
     function gtag(){dataLayer.push(arguments);} 
     gtag('js', new Date()); 
-    
+
     gtag('config', 'G-KH8L739Y2L'); 
   </script>
 
@@ -67,7 +67,7 @@
         <div class="col-lg-4 col-sm-4 col-5">
           <ul class="social-media">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="<?php echo $LINKEDIN_URL ;?>" target='_blank'><i class="fa fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
             <!-- <li><a href="#"><i class="fa fa-telegram"></i></a></li> -->
           </ul>
