@@ -637,7 +637,7 @@
                                 <div class="info-post">
                                   <div class="icon">
                                     <img src="assets/images/icons/linkedin.png" alt="">
-                                    <a href="#"><?php echo $LINKEDIN_NAME; ?></a>
+                                    <a href="<?php echo $LINKEDIN_URL ;?>" target="_blank"><?php echo $LINKEDIN_NAME; ?></a>
                                   </div>
                                 </div>
                               </div>
