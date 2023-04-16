@@ -1,7 +1,7 @@
 <?php 
 
 $SITENAME = 'Ecomtrace';
-$EMAIL = 'mymail@ecomtrace.com';
+$EMAIL = 'info@ecomtrace.com';
 
 $PHONE_NO = '+94 777 338 795';
 $FACEBOOK_NAME = '+94 777 338 795';
