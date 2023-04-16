@@ -76,7 +76,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.php" class="logo">
-              <img src="assets/images/logo.png" alt="">
+              <img src="assets/images/logo.png" alt="" width="150" height="50">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
