@@ -99,7 +99,7 @@ include 'sys_defaults.php';
 									<div class="right-content">
 										<span class="category">Tracking Web data</span>
 										<span class="date">24 March 2023</span>
-										<a href="blog_posts/post1.php"><h4>Set up ecommerce tracking using GA4</h4></a>
+										<a href="blog_posts/post2.php"><h4>Set up ecommerce tracking using GA4</h4></a>
 										<p>In today's competitive online business world, it is essential to have a comprehensive understanding of customers'...</p>
 									</div>
 								</div>
@@ -112,7 +112,7 @@ include 'sys_defaults.php';
 									<div class="right-content">
 										<span class="category">Data Visualizing</span>
 										<span class="date">02 April 2023</span>
-										<a href="blog_posts/post1.php"><h4>Data analysis and visualization</h4></a>
+										<a href="blog_posts/post3.php"><h4>Data analysis and visualization</h4></a>
 										<p>Data analysis and visualization are essential components of any successful ecommerce business strategy..</p>
 									</div>
 								</div>
@@ -125,7 +125,7 @@ include 'sys_defaults.php';
 									<div class="right-content">
 										<span class="category">Data Visualizing</span>
 										<span class="date">12 April 2023</span>
-										<a href="blog_posts/post1.php"><h4>Why does Google Looker studio identify as the best for the ecommerce analytics tracking</h4></a>
+										<a href="blog_posts/post4.php"><h4>Why does Google Looker studio identify as the best for the ecommerce analytics tracking</h4></a>
 										<p>As the world of ecommerce continues to grow and evolve, the importance of data...</p>
 									</div>
 								</div>
@@ -141,7 +141,7 @@ include 'sys_defaults.php';
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
-					<form id="contact" action="" method="post">
+					<form id="contact" method="post">
 						<div class="row">					
 							<div class="col-lg-12">
 								<div class="fill-form">
