@@ -1,6 +1,20 @@
 <?php
 
 include 'sys_defaults.php';
+include ('mail/Mail.php');
+
+if(isset($_POST['subscribe'])){
+		//j~@HYi)ACBDn
+        $email = $_POST['email'];
+        $subject = 'Welcome to EcomTrace Newsletter!';
+        $mailContent = "<h2>TThank you for subscribing to EcomTrace Newsletter! </h2> 
+        <p>We are excited to have you on board and look forward to sharing the latest news and updates with you.</p><p>As a subscriber, you will receive exclusive access to our expert insights, industry trends, and valuable resources to help you stay ahead in the e-commerce world.</p><p>Thank you for choosing EcomTrace Newsletter. We can't wait to start this journey with you!</p><br><p>Best regards,</p><p>The EcomTrace Team</p>";
+        $fromMail = 'newsletter@ecomtrace.com';
+        $fromName = 'EcomTrace News Letter';
+        //subscribe();
+        subscribeMail($email, $subject, $mailContent, $fromMail, $fromName);
+        
+}
 
 ?>
 <!DOCTYPE html>
@@ -154,7 +168,7 @@ include 'sys_defaults.php';
 										</div>                      			
 										<div class="col-lg-6">
 											<fieldset>
-												<button type="submit" id="form-submit" class="main-button ">SUBSCRIBE</button>
+												<button type="submit" id="form-submit" class="main-button " name="subscribe">SUBSCRIBE</button>
 											</fieldset>
 										</div>
 									</div>

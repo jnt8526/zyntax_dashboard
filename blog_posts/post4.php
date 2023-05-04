@@ -118,7 +118,7 @@ include './../sys_defaults.php';
 							</div>                      			
 							<div class="col-lg-6">
 								<fieldset>
-									<button type="submit" id="form-submit" class="main-button ">SUBSCRIBE</button>
+									<button type="submit" id="form-submit" name="subscribe" class="main-button ">SUBSCRIBE</button>
 								</fieldset>
 							</div>
 						</div>
