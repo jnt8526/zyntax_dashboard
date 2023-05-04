@@ -22,7 +22,7 @@ function sendMail($name, $email){
     $mail->isHTML(true);
 
     $mailContent = "<h1>Here is your Free Quote </h1>
-    <p><?php echo $name;?>,  this is your free quote for EcomTrace.</p>";
+    <p>". echo $name; . ",  this is your free quote for EcomTrace.</p>";
     $mail->Body = $mailContent;
 
 
