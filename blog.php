@@ -11,7 +11,7 @@ if(isset($_POST['subscribe'])){
         <p>We are excited to have you on board and look forward to sharing the latest news and updates with you.</p><p>As a subscriber, you will receive exclusive access to our expert insights, industry trends, and valuable resources to help you stay ahead in the e-commerce world.</p><p>Thank you for choosing EcomTrace Newsletter. We can't wait to start this journey with you!</p><br><p>Best regards,</p><p>The EcomTrace Team</p>";
         $fromMail = 'newsletter@ecomtrace.com';
         $fromName = 'EcomTrace News Letter';
-        //subscribe();
+        // subscribe();
         subscribeMail($email, $subject, $mailContent, $fromMail, $fromName);
         
 }
