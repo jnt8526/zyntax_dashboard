@@ -4,7 +4,7 @@ require 'composer/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 
-function sendMail($name, $email){
+function sendMail($name, $email, $subject){
     $mail = new PHPMailer();
 
     $mail->isSMTP();
@@ -17,7 +17,7 @@ function sendMail($name, $email){
     $mail->addReplyTo('support@ecomtrace.com', 'EcomTrace Support');
     $mail->addAddress($email, $name);
 
-    $mail->Subject = 'Free Quote with EcomTrace';
+    $mail->Subject = $subject;
 
     $mail->isHTML(true);
 
@@ -27,17 +27,15 @@ function sendMail($name, $email){
 
 
     if($mail->send()){
-        echo 'Message has been sent';
+        // echo 'Message has been sent';
     }else{
-        echo 'Message could not be sent.';
-        echo 'Mailer Error: ' . $mail->ErrorInfo;
+        // echo 'Message could not be sent.';
+        // echo 'Mailer Error: ' . $mail->ErrorInfo;
     }
 
 }
 
-function jnt(){
-    echo 'addCC';
-}
+
 
 
 

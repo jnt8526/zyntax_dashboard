@@ -8,7 +8,8 @@ if(isset($_POST['get_quote'])){
 
         $name = $_POST['name'];
         $email = $_POST['address'];
-        sendMail($name, $email);
+        $subject = 'Free Quote with EcomTrace';
+        sendMail($name, $email, $subject);
         
 }
 ?>
