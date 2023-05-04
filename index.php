@@ -9,7 +9,11 @@ if(isset($_POST['get_quote'])){
         $name = $_POST['name'];
         $email = $_POST['address'];
         $subject = 'Free Quote with EcomTrace';
-        sendMail($name, $email, $subject);
+        $mailContent = "<h1>Here is your Free Quote </h1> <p>"
+          . $name . ", this is your free quote for EcomTrace.</p>";
+        $fromMail = 'support@ecomtrace.com';
+        $fromName = 'EcomTrace Support';
+        sendMail($name, $email, $subject, $mailContent, $fromMail, $fromName);
         
 }
 ?>
