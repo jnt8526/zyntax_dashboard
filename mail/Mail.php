@@ -4,7 +4,8 @@ require 'composer/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 
-function sendMail($name, $email, $subject){
+function sendMail($name, $email, $subject, $mailContent, $fromMail, $fromName){
+    
     $mail = new PHPMailer();
 
     $mail->isSMTP();
@@ -13,16 +14,14 @@ function sendMail($name, $email, $subject){
     $mail->SMTPAutoTLS = false; 
     $mail->Port = 25;
 
-    $mail->setFrom('support@ecomtrace.com', 'EcomTrace Support');
-    $mail->addReplyTo('support@ecomtrace.com', 'EcomTrace Support');
+    $mail->setFrom($fromMail, $fromName);
+    $mail->addReplyTo($fromMail, $fromName);
     $mail->addAddress($email, $name);
 
     $mail->Subject = $subject;
 
     $mail->isHTML(true);
 
-    $mailContent = "<h1>Here is your Free Quote </h1> <p>"
-    . $name . ", this is your free quote for EcomTrace.</p>";
     $mail->Body = $mailContent;
 
 
