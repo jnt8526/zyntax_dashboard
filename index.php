@@ -4,16 +4,12 @@ include 'sys_defaults.php';
 include ('mail/Mail.php');
 
 
-if(isset($_GET['get_quote'])){
+if(isset($_POST['get_quote'])){
 
-        sendMail();
-  // jnt();
-
-        // $name = $_POST['exampleInputName'];
-        // $email = $_POST['exampleInputEmail1'];
-
-        // $mail = new SendMail();
-        // $mail->testFunction($name, $email);
+        $name = $_POST['name'];
+        $email = $_POST['address'];
+        sendMail($name, $email);
+        
 }
 ?>
 
@@ -406,7 +402,7 @@ if(isset($_GET['get_quote'])){
           </div>
         </div>
         <div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-          <form id="search" method="GET">
+          <form id="search" method="POST">
             <div class="row">
               <div class="col-lg-4 col-sm-4">
                 <fieldset>
